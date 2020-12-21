@@ -1,0 +1,23 @@
+{
+    "name": "wfn/admin",
+    "description": "WFN Admin panel core functionality",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "*",
+        "darkaonline/l5-swagger": "*",
+        "zircote/swagger-php": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WFN\\Admin\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WFN\\Admin\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}

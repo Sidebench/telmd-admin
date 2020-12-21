@@ -1,0 +1,5 @@
+/mix-manifest.json
+/package.json
+/package-lock.json
+/webpack.mix.js
+/node_modules/*
